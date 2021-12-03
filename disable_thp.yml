@@ -2,7 +2,7 @@
 
 
 - name: Disable THP
-  hosts: myself
+  hosts: test
   tasks:
 
     - name: Ensure thp-disable service exists
